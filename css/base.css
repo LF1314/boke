@@ -1,0 +1,16 @@
+/* 重置样式 */
+*{margin: 0px;padding: 0px}
+a{text-decoration: none;}
+ul{list-style: none;}
+h1{font-weight: normal;}
+li{list-style: none;}
+.clearfix:after{
+    content: "";
+    display: block;
+    width: 100%;
+
+
+}
+body{background-color: #F7F7F7;}
+
+

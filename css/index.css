@@ -1,0 +1,143 @@
+/* 个人博客头部css */
+.header_wraper{
+    width: 100%;
+   
+    background-color: #fff;
+}
+.header_inner{
+   
+    height: 70px;
+    line-height: 70px;
+    
+  
+    
+}
+.header_inner h1{
+
+    font-size: 27px;
+    display: inline-block;
+    height: 70px;
+    color: #333;
+}
+.header_inner_nav{
+    float: right;
+    height: 70px;
+}
+.header_inner_nav li{
+    float: left;
+    margin-right: 50px;
+    height: 60px;
+
+
+}
+.header_li_a{border-bottom: 3px solid #333}
+.header_inner_nav li a{
+    font-size: 16px;
+    display: block;
+   
+    color: #666;
+    
+}
+.header_inner_nav li a:hover{
+    color: #333;
+}
+
+.picshow { font-size: 0px; width: 100%; overflow: hidden; margin: 20px auto; }
+.picshow li { width: 20%; display: inline-block;  overflow: hidden; position: relative; }
+.picshow li i { overflow: hidden; display: block; height: 400px; }
+.picshow li img { display: block; width: 100%; transition: all .5s; }
+.picshow li:hover img { transform: scale(1.05, 1.05); opacity: 1; }
+.picshow li:hover .font::before, .picshow li:hover .font::after { opacity: 1; transform: scale(1); transition: all 0.5s; }
+.picshow li .font { color: #fff; padding: 0; margin: 0; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; transition: all .4s ease-in-out; overflow: hidden }
+.picshow li .font::before, .picshow li .font::after { position: absolute; content: ''; opacity: 0; -webkit-transition: opacity 0.4s, -webkit-transform .4s; -moz-transition: opacity 0.4s, -moz-transform .4s; -o-transition: opacity 0.4s, -o-transform .4s; transition: opacity 0.4s, transform .4s }
+.picshow li .font::before { top: 14%; right: 5%; bottom: 14%; left: 5%; border-top: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: scale(0, 1); -moz-transform: scale(0, 1); -o-transform: scale(0, 1); transform: scale(0, 1); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -o-transform-origin: 0 0; transform-origin: 0 0 }
+.picshow li .font::after { top: 8%; right: 10%; bottom: 8%; left: 10%; border-right: 1px solid #fff; border-left: 1px solid #fff; -webkit-transform: scale(1, 0); -moz-transform: scale(1, 0); -o-transform: scale(1, 0); transform: scale(1, 0); -webkit-transform-origin: 100% 0; -moz-transform-origin: 100% 0; -o-transform-origin: 100% 0; transform-origin: 100% 0 }
+.picshow li .font h3 { font-size: 16px; font-weight: 700; text-align: center; width: 80%; position: absolute; top: 50%; left: 10%; background: rgba(0,0,0,0.5); line-height: 1.9; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; transition: all .5s ease-in-out; overflow: hidden; opacity: 0 }
+.picshow li:hover .font h3 { top: 45%; opacity: 1 }
+
+
+/* rightbox */
+.blogs { float: left; width: 70%; overflow: hidden; }
+.blogs li { margin-bottom: 10px; overflow: hidden; padding: 20px; background: #fff }
+h3.blogtitle { line-height: 30px; height: 30px; margin: 10px 0; }
+.blogpic { overflow: hidden; width: 30%; display: block; float: left; margin-right: 20px; border-radius: 5px; ; }
+.autor { width: 100%; overflow: hidden; clear: both; margin: 20px 0 0 0; display: inline-block; color: #838383; font-size: 12px }
+
+.autor span { margin-right: 10px; padding-left: 20px }
+.autor span a { color: #096; }
+.autor span a:hover { text-decoration: underline }
+.lm { background: url(../imgs/newsbg01.png) no-repeat left center }
+.dtime { background: url(../imgs/newsbg02.png) no-repeat left center }
+.viewnum { background: url(../imgs/newsbg04.png) no-repeat left center }
+.pingl { background: url(../imgs/newsbg03.png) no-repeat left center }
+.blogpic img { width: 100% }
+.bloginfo p { color: #888; line-height: 24px }
+.sider_about{
+    width: 30%;
+    float: right;
+    background-color: #F7F7F7;
+
+}
+.sider_about_inner
+{
+    margin-left: 20px;;
+    
+    text-align: center;
+    background-color: #fff;
+}
+.sider_img{
+    width: 100%;
+    height: 130px;
+    
+    background: url(../imgs/banner.png) no-repeat top center;
+    background-size: 100% 130px;
+  
+}
+.sider_img img{
+    margin-top: 80px;
+    border-radius: 50%;
+    width: 100px;
+}
+.sider_about_inner p{
+    line-height: 30px;
+    font-size: 14px;  
+}
+
+/* 标签模块的实现 css */
+/* .cloud h2{font-size: 15px;padding-left: 20px;padding-top: 20px;} */
+.cloud { width: 100%; clear: both; overflow: hidden; background: #fff; margin:20px 0 20px;margin-left: 20px;}
+.cloud ul { padding: 20px; overflow: hidden; }
+.cloud ul a { line-height: 24px; height: 24px; display: block; background: #999; float: left; padding: 3px 11px; margin: 10px 10px 0 0; border-radius: 8px; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; color: #FFF }
+.cloud ul a:nth-child(8n-7) { background: #8A9B0F }
+.cloud ul a:nth-child(8n-6) { background: #EB6841 }
+.cloud ul a:nth-child(8n-5) { background: #3FB8AF }
+.cloud ul a:nth-child(8n-4) { background: #FE4365 }
+.cloud ul a:nth-child(8n-3) { background: #FC9D9A }
+.cloud ul a:nth-child(8n-2) { background: #EDC951 }
+.cloud ul a:nth-child(8n-1) { background: #C8C8A9 }
+.cloud ul a:nth-child(8n) { background: #83AF9B }
+.cloud ul a:first-child { background: #036564 }
+.cloud ul a:last-child { background: #3299BB }
+.cloud ul a:hover { border-radius: 0; text-shadow: #000 1px 1px 1px }
+.hometitle { padding: 0 10px; line-height: 50px; height: 50px; font-size: 17px; border-bottom: 1px solid #e5e5e5; color: #333; position: relative }
+.hometitle:after { content: ''; position: absolute; height: 2px; width: 0; left: 0; bottom: -1px; background: #333;  }
+.hometitle:hover:after { width: 100%; transition: 2s ease all; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
